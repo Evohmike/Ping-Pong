@@ -1,0 +1,40 @@
+
+//body{
+  background: #d5e2d8;
+}
+
+//.fullContainer {
+  margin: 0;
+  padding: 0;
+}
+
+// .header {
+  text-align: center;
+  line-height: 100px;
+  background: #f4a142;
+}
+
+//.headerText{
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 38px;
+  /* padding: 5%; */
+
+}
+//.header img{
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  z-index: -1;
+}
+
+// .sidebar {
+  color: #fff;
+  padding: 1%;
+  float: left;
+  height: 100vh;
+  width: 20%;
+  margin-top: 2%;
+  background: #4b8e48;
+  position: absolute;
+}
