@@ -33,8 +33,14 @@ body{
   padding: 1%;
   float: right;
   height: 90vh;
+  position: absolute;
   width: 20%;
   margin-top: 2%;
   background: #4b8e48;
   position: absolute;
+}
+
+.formcontainer{
+  text-align: center;
+  position: relative;
 }
