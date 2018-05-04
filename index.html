@@ -11,46 +11,60 @@
 <body>
   <div class="container-fluid fullcontainer">
     <div class="header">
-      <img src="" alt="header image">
       <div class="headerText">
         <p>Ping Pong</p>
       </div>
     </div>
-    <div class="sidebar">
-      <h3>About Ping Pong</h3>
-      <h5>Created By:</h5>
-      <p>Evoh Mike</p>
-      <h5>GitHub Username/URL:</h5>
-      <a href=""></a>
-      <h5>Level 2 Test For:</h5>
-      <p>Java</p
 
-    </div>
-    <div class="formcontainer">
-      <div class="textcontainer">
-        <h2>Let's play!</h2>
-        <h5>Rule:</h5>
-        <p>ping pong will count up to your number from 1 with the following exceptions</p>
-        <ol>
-          <ul>Numbers divisible by 3 becomes "ping"</ul>
-          <ul>Numbers divisible by 5 becomes "pong</ul>
-          <ul>Numbers divisible by 3 and 5 becomes "pingpong"</ul>
-        </ol>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="sidebar">
+          <h3>About Ping Pong</h3>
+          <h5>Created By:</h5>
+          <p>Evoh Mike</p>
+          <h5>GitHub Username/URL:</h5>
+          <a href=""></a>
+          <h5>Level 2 Test For:</h5>
+          <p>Java</p>
+        </div>
+      </div>
+    <div class="col-md-8">
+      <div class="formcontainer">
+        <div class="textcontainer">
+          <h2>Let's play!</h2>
+          <h4>Rule:</h4>
+          <p>ping pong will count up to your number from 1 with the following exceptions</p>
+          <ol>
+            <li>Numbers divisible by 3 becomes "ping"</li>
+            <li>Numbers divisible by 5 becomes "pong</li>
+            <li>Numbers divisible by 3 and 5 becomes "pingpong"</li>
+          </ol>
+        </div>
+        <form class="pingpongform">
+          <div class="form-group">
+            <label for="[number]">Enter your number here:</label>
+            <input type="number" id="numb" name="number" value="" placeholder="Enter a number here..">
+            <button type="submit" class="btn btn-custom" id="submit" name="button">pingpong</button>
+            <ul id=ponk>
+
+            </ul>
+          </div>
+        </form>
       </div>
     </div>
-    <form class="pingpongform form-inline">
-      <div class="">
-        <label for="[number]">Enter your number here:</label>
-        <input type="number" id="number" name="number" value="" placeholder="Enter a number here..">
-        <button type="submit" class="btn btn-custom" id="submit"name="button">pingpong</button>
+
+
+      <div class="resultsOutput">
+        <ul class="numbersList"></ul>
       </div>
-    </form>
-    <div class="resultsOutput">
-      <ul class="numbersList"></ul>
     </div>
-    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-      
+
   </div>
 </body>
 </html>

@@ -1,6 +1,6 @@
-
-body{
+body {
   background: #d5e2d8;
+  font-family: monospace;
 }
 
 .fullContainer {
@@ -10,37 +10,54 @@ body{
 
 .header {
   text-align: center;
-  line-height: 140px;
-  background: #f4a142;
+  line-height: 200px;
+  background: #F5DEB3;
 }
 
 .headerText{
   font-weight: bold;
-  font-family: sans-serif;
-  font-size: 45px;
-
-
+  font-family: cursive;
+  font-size: 38px;
 }
-//.header img{
-  margin: 0;
-  padding: 0;
-  width: 90%;
-  z-index: -1;
+
+h5 {
+  font-weight: bold;
+  color: #FFDEAD;
+}
+. h3 {
+  font-weight: bold;
+  color: #00;
+}
+
+.column{
+  float: left;
 }
 
 .sidebar {
-  color: #fff;
+  color: white;
   padding: 1%;
-  float: right;
-  height: 90vh;
-  position: absolute;
-  width: 20%;
+  height: 70vh;
+  width: 80%;
   margin-top: 2%;
-  background: #4b8e48;
+  background: #2E8B57;
   position: absolute;
 }
 
-.formcontainer{
-  text-align: center;
-  position: relative;
+
+.pingpongform {
+  margin-top: 2%;
+}
+
+.btn-custom {
+  background: #708090;
+  color: white;
+}
+
+.formcontainer {
+  margin-top: 4%;
+  margin-left: 0%;
+}
+
+.resultsOutput {
+  margin-left: 20%;
 }
