@@ -1,14 +1,13 @@
 
 # ping-pong
-####This is a Javascript application that takes user input and then outputs ping, pong and pingpong depending on specific number user inputs.4 May 2018.
+#### This is a Javascript application that takes user input and then outputs ping, pong and pingpong depending on specific number user inputs. 4th May 2018.
 #### By **Evoh Mike**
 ## Description
-ping-pong is a javascript application that takes user input and returns ping ,pong, pingpong or numbers based on input numbers divisible by 3,5,and 15 to return ping, ping,pingpong in respective orders and numbers for for inputs that are not divisble by 3,5,and 15.
+Ping-pong is a javascript application that takes user input and returns ping ,pong, pingpong or numbers based on input numbers divisible by 3,5,and 15 to return ping, ping,pingpong in respective orders and numbers for for inputs that are not divisble by 3,5,and 15.
 ## Setup/Installation Requirements
 * This application uses jQuery and bootstrap.
 * There is also use custom styles defined within css/styles.css.
 * This webpage is easy to understand.
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 ## Known Bugs
 This application currently do not have any Bugs.
 ## Technologies Used
@@ -18,4 +17,4 @@ This application currently do not have any Bugs.
 ## Support and contact details
 You can contact at evohmike@gmail.com
 ### License
-<a href="">License</a> Copyright (c) 2018. **Evoh Mike*
+<a href="">License</a> Copyright (c) 2018. **Evoh Mike**
