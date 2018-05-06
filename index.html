@@ -3,6 +3,11 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -40,30 +45,22 @@
             <li>Numbers divisible by 3 and 5 becomes "pingpong"</li>
           </ol>
         </div>
-        <form class="pingpongform">
-          <div class="form-group">
-            <label for="[number]">Enter your number here:</label>
-            <input type="number" id="numb" name="number" value="" placeholder="Enter a number here..">
-            <button type="submit" class="btn btn-custom" id="submit" name="button">pingpong</button>
-            <ul id=ponk>
-
-            </ul>
-          </div>
-        </form>
+        <div class="form-group">
+          <form id="userInpute" action="index.html" method="get">
+            <label for="userNumber">Enter your number here</label>
+            <input id="countTo" type="number" name="number" value="">
+            <button type="submit" id="btn-custom" name="button">ping pong</button>
+          </form>
+        </div>
       </div>
     </div>
 
 
-      <div class="resultsOutput">
-        <ul class="numbersList"></ul>
+      <div class="Output">
+        <ul class="output"></ul>
       </div>
     </div>
 
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
 
   </div>
 </body>

@@ -1,27 +1,21 @@
-<<<<<<< HEAD
-# {Application Name}
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+
+# ping-pong
+####This is a Javascript application that takes user input and then outputs ping, pong and pingpong depending on specific number user inputs.4 May 2018.
+#### By **Evoh Mike**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+ping-pong is a javascript application that takes user input and returns ping ,pong, pingpong or numbers based on input numbers divisible by 3,5,and 15 to return ping, ping,pingpong in respective orders and numbers for for inputs that are not divisble by 3,5,and 15.
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+* This application uses jQuery and bootstrap.
+* There is also use custom styles defined within css/styles.css.
+* This webpage is easy to understand.
 {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+This application currently do not have any Bugs.
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+* Bootstrap
+* jQuery
+* Google fonts
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+You can contact at evohmike@gmail.com
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
-
-  
-=======
-# ping-pong
->>>>>>> d9c81c61dc44b989aada1f5f70435c4fe6a5e546
+<a href="">License</a> Copyright (c) 2018. **Evoh Mike*
